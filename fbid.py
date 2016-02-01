@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python2
 
 # Facebook ID - by Gianni 'guelfoweb' Amato
 # Show info by facebook photo url
@@ -12,7 +12,7 @@ import json
 
 def internet_on():
     try:
-        response=urllib2.urlopen('http://74.125.228.100',timeout=1)
+        response=urllib2.urlopen('http://www.google.com.pa',timeout=1)
         return True
     except urllib2.URLError as err: pass
     return False
